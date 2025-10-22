@@ -1,0 +1,97 @@
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.postcard {
+  width: 600px;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.postcard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.postcard-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.postcard-header img {
+  width: 60px;
+}
+
+.postcard-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.left {
+  width: 60%;
+}
+
+.left h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.left p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.right {
+  width: 35%;
+  border-left: 2px solid #ccc;
+  padding-left: 10px;
+}
+
+.right strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.right p {
+  line-height: 1.4;
+  font-size: 0.9rem;
+}
+
+.postcard-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #ccc;
+  padding-top: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
